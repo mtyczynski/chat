@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prosty klient WebSockets</title>
+  <meta charset="UTF-8">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="js/skrypt.js"></script>
+</head>
+
+<body>
+  <div>
+    <table>
+      <tr>
+        <td> <img id="status" src="img/bullet_red.png" width="35"> </td>
+        <td> <input id="open" type="button" value="Połącz"> </td>
+        <td> <input id="close" type="button" value="Rozłącz"> </td>
+      </tr>
+      <tr>
+        <td>
+          Imie:
+          <input id="name"/>
+          Pokoj:
+          <input id="room"/>
+        </td>
+      </tr>
+    </table>
+    <p>
+      Komunikat:&nbsp;
+      <input id="text">&nbsp;<input id="send" type="button" value="Wyślij">
+    </p>
+    <p id="message">
+      <p id="history">
+    </p>
+  </div>
+</body>
+
+</html>

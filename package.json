@@ -1,0 +1,13 @@
+{
+  "name": "SioApp01",
+  "version": "0.1.0",
+  "description": "Pierwszy przykład z Socket.io",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2",
+    "socket.io": "^1.4.5"
+  }
+}
